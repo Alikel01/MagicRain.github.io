@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
+
+.form-div {
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    /*    border: 1px solid black;
+    border-radius: 5px;*/
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.1em;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bgfr.jpeg);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+form p {
+    font-size: .89em;
+}
+
+.form-div.login {
+    margin-top: 100px;
+}
+
+.logout {
+    color: red;
+}
+
+h3 {
+    color: white;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: solid white;
+}
+
+.main-nav li a:hover
+{
+    border: solid white;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
